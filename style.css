@@ -20,7 +20,7 @@ h2 {
 }
 
 h4 {
-    font-size: 20px;
+    font-size: 1000px;
     color: #222;
 }
 
@@ -48,3 +48,47 @@ body {
 }
 
 /* Header Start */
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*Tudo alinhado na mesma linha*/
+
+    padding: 20px 80px;
+    background: #e3e6f3;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+
+/* Agora queremos colocar nossos links "a" em uma linha tbm (Estão em uma coluna)  */
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*Tudo alinhado na mesma linha (Só que junto)*/
+}
+
+/*Remoção dos marcadores links "a"*/
+
+#navbar li {
+    list-style: none;
+    /* ^ remove os marcadores */
+    padding: 0 20px;
+    /*separo*/
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    /*Estilizando palavras*/
+    transition: 0.3s ease;
+}
+
+/*Efeito quando passar o mouse*/
+
+#navbar li a:hover {
+    color: #088178;
+}
