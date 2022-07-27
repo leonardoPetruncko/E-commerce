@@ -12,7 +12,7 @@
  Para termos uma codificação avançada, uma das coisas é criar padrões
 pré-definidos para nossos elementos
 
-Criamos pré-definições para "Feature" como a class: section-p1 
+Criamos pré-definições Globais para "Feature" como a class: section-p1 
 
  */
 
@@ -50,6 +50,21 @@ p {
 
 .section-m1 {
     margin: 40px 0;
+}
+
+/*Botão Global*/
+
+button.normal{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
 }
 
 body {
@@ -234,7 +249,7 @@ body {
     background-color: #fff2e5;
 }
 
-/*Featured Products*/
+*Featured Products*/
 
 #product1 {
     text-align: center;
@@ -310,6 +325,8 @@ body {
     color: rgb(243, 181, 25);
 }
 
+/*Preço*/
+
 #product1 .pro .des h4 {
     padding-top: 7px;
     font-size: 15px;
@@ -317,6 +334,8 @@ body {
     color: #088178;
 
 }
+
+/*Carrinho*/
 
 #product1 .pro .cart {
     width: 40px;
@@ -332,4 +351,39 @@ body {
     bottom: 20px;
     right: 10px;
 
+}
+
+#banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    align-items: center;
+    text-align: center;
+
+    background-image: url(/assets/img/banner/b2.jpg);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner h4 {
+    color: #fff;
+    font-size: 16px;
+}
+
+#banner h2 {
+    color: #fff;
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+#banner h2 span{
+    color: #ef3636;
+}
+
+#banner button:hover {
+    color: #fff;
+    background: #088178;
 }
