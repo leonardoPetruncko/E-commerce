@@ -54,7 +54,7 @@ p {
 
 /*Botão Global*/
 
-button.normal{
+button.normal {
     font-size: 14px;
     font-weight: 600;
     padding: 15px 30px;
@@ -67,7 +67,7 @@ button.normal{
     transition: 0.2s;
 }
 
-button.white{
+button.white {
     font-size: 13px;
     font-weight: 600;
     padding: 11px 18px;
@@ -120,7 +120,8 @@ body {
     /* ^ remove os marcadores */
     padding: 0 20px;
     /*separo*/
-    position: relative; /* Sem o relative nosso sublinhado não iria aparecer */
+    position: relative;
+    /* Sem o relative nosso sublinhado não iria aparecer */
 }
 
 #navbar li a {
@@ -371,7 +372,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+
     align-items: center;
     text-align: center;
 
@@ -393,7 +394,7 @@ body {
     padding: 10px 0;
 }
 
-#banner h2 span{
+#banner h2 span {
     color: #ef3636;
 }
 
@@ -402,19 +403,21 @@ body {
     background: #088178;
 }
 
-/*Banners rodapé*/
+/*Banners perto rodapé*/
 
-#sm-banner{
+#sm-banner {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-#sm-banner .banner-box{
+/*Criando*/
+
+#sm-banner .banner-box {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+
     align-items: flex-start;
 
     background-image: url(/assets/img/banner/b17.jpg);
@@ -425,6 +428,8 @@ body {
 
     padding: 30px;
 }
+
+/*Mundando a segunda imagem*/
 
 #sm-banner .banner-box2 {
     background-image: url(/assets/img/banner/b10.jpg);
@@ -452,5 +457,54 @@ body {
 #sm-banner .banner-box:hover button {
     background: #088178;
     border: 1px solid #088178;
+}
 
+/*Banner3*/
+
+#banner3 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
+
+#banner3 .banner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: flex-start;
+
+    background-image: url(/assets/img/banner/b7.jpg);
+    min-width: 30%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/*Banner3 foto 2*/
+
+#banner3 .banner-box2 {
+    background-image: url(/assets/img/banner/b4.jpg);
+}
+
+/*Banner3 foto 3*/
+
+#banner3 .banner-box3 {
+    background-image: url(/assets/img/banner/b18.jpg);
+}
+
+#banner3 h2 {
+    color: #fff;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+#banner3 h3 {
+    color: #ec544e;
+    font-weight: 800;
+    font-size: 15px;
 }
