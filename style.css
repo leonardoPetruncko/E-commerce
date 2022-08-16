@@ -95,7 +95,7 @@ body {
     background: #e3e6f3;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
 
-    /* z-index para mostrar a sobra - O Resto serve para deixar o header fixo acompanhado pelo scroll*/
+    /* z-index para mostrar a sombra - O Resto serve para deixar o header fixo acompanhado pelo scroll*/
 
     z-index: 999;
     position: sticky;
@@ -293,6 +293,8 @@ body {
     transition: 0.3s ease;
 
     position: relative;
+
+    background-color: rgb(198, 198, 198);
 }
 
 /*Adequando a imagem no Card*/
@@ -511,7 +513,7 @@ body {
 
 /* NEWSLETTER */
 
-#newsletter{
+#newsletter {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -542,7 +544,7 @@ body {
 
 /*INPUT*/
 
-#newsletter .form{
+#newsletter .form {
     display: flex;
     width: 40%;
 }
@@ -555,7 +557,7 @@ body {
     border: 1px solid transparent;
     border-radius: 4px;
     outline: none;
-    
+
     /* Deixar sem border na lateral direita */
 
     border-top-right-radius: 0;
